@@ -9,8 +9,8 @@ jobs:
       # These two tests should run in parallel. Make it so!
       - run:
           command: |
-            circleci tests glob "04 Parallelism/src/*.sh" | circleci tests split
-
+            circleci tests glob "04 Parallelism/src/*.sh" | circleci tests split > /tmp/tests-to-run
+            bash $(cat /tmp/tests-to-run)
 workflows:
   version: 2
   test:
