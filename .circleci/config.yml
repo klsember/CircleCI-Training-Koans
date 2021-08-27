@@ -8,13 +8,8 @@ jobs:
       - checkout
       # These two tests should run in parallel. Make it so!
       - run:
-          name: Run Hello test
           command: |
-            bash "04 Parallelism"/src/test_hello.sh
-      - run:
-          name: Run Goodbye test
-          command: |
-            bash "04 Parallelism"/src/test_goodbye.sh
+            circleci tests split < /"04 Parallelism"/src
 
 workflows:
   version: 2
