@@ -9,7 +9,7 @@ jobs:
       # These two tests should run in parallel. Make it so!
       - run:
           command: |
-            circleci tests split < /"04 Parallelism"/src
+            circleci tests split < "04 Parallelism"/src/
 
 workflows:
   version: 2
