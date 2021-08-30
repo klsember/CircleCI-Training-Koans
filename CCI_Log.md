@@ -16,7 +16,7 @@
 | 12 Matrix Builds | [CircleCI Job](https://app.circleci.com/pipelines/github/klsember/CircleCI-Training-Koans/50/workflows/1fe6c16d-cf00-4c84-a3c8-2780f8e145cf) |
 | 13 Workspaces | [CircleCI Job](https://app.circleci.com/pipelines/github/klsember/CircleCI-Training-Koans/53/workflows/4f5ef6d5-51a3-4249-b0f2-f2d65d47d2cf) |
 | 14 Conditional Logic | [CircleCI Job](https://app.circleci.com/pipelines/github/klsember/CircleCI-Training-Koans?branch=main) |
-| 15 Rusable config | [CircleCI Job]() |
+| 15 Rusable config | [CircleCI Job](https://app.circleci.com/pipelines/github/klsember/CircleCI-Training-Koans/61/workflows/ea6feb09-295e-4daf-847c-99fccb48c01e/jobs/90) |
 
 
 <sup>*</sup> The `config.yml` makes reference to a `name` parameter that doesn't seem to exist. 
