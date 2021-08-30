@@ -12,7 +12,7 @@ jobs:
           upload: true
 # Add below this line, do not modify above
       - store_test_results:
-          path: test-results
+          path: results
 workflow:
   build:
     jobs:
