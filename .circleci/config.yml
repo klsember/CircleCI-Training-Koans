@@ -1,4 +1,8 @@
 version: 2.1
+executors:
+  custom-node:
+    docker:
+      - image: circleci/node
 
 commands:
   generatelogs:
