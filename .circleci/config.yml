@@ -40,7 +40,7 @@ workflows:
       - test-node-6:
           requires:
             - build
-      - deploy
+      - deploy:
           requires:
             - test-node
             - test-node-8
